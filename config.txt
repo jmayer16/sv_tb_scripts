@@ -1,0 +1,8 @@
+UUT: /Users/josephmayer/Documents/CSE548/sim_oserdes.v
+submodule: /Users/josephmayer/Documents/CSE548/sim_ddr.v
+Timescale: ps
+Libraries: cores, unisim
+clock: clk_in 32000
+clock: clk_div_in 4000
+resets: io_reset
+Runtime: 500ns
